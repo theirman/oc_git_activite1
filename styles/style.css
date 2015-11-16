@@ -1,0 +1,57 @@
+/* GENERAL */				
+body 			{ max-width: 1280px; margin: auto; }
+body 			{ font-family: 'MarvelRegular', sans-serif; font-size: 1.2em; color: #046380; }
+body 			{ background: url("../images/metal.jpg"); }
+h1, h3			{ font-family: 'Kaushan', cursive; }
+h1, h3			{ text-shadow: 5px 5px 4px rgba(25, 25, 112, 0.5); }
+h1				{ font-size: 3em; margin: 0px auto 20px auto;  }
+h3				{ font-size: 1.5em; }
+#corps			{ display: inline-block; width: 85%;}
+
+
+/* LISERET */
+#liseret		{ display: inline-block; width: 10%; height: 600px; vertical-align : top; padding: 10px; margin: 10px;}
+#liseret		{ border-radius: 10px; } 
+#liseret		{ background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, 
+							  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, 
+							  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, 
+							  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+							  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+							  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+				  background-color: #131313;
+				  background-size: 20px 20px;
+				}
+
+
+/* ETAT CIVIL */
+header			{ margin-bottom: 50px; }
+#etatcivil 		{ display: inline-block; width: 100%; }
+#etatcivil h1	{ display: block; text-align: center; }
+#etatcivil span	{ display: block; text-align: center; }
+#etatcivil img	{ display: inline-block; float: right; }
+#etatcivil img	{ border: solid 1px #046380; border-radius: 10px; padding: 4px;}
+#etatcivil img	{ box-shadow: 8px 8px 8px rgba(25, 25, 112, 0.75); }
+
+
+/* EXPERIENCE */
+#experience		{ display: inline-block; width: 28%; height: 100%;  vertical-align : text-top; padding: 20px;}
+
+
+/* COMPETENCE */
+#competence		{ display: inline-block; width: 28%; height: 100%;  vertical-align : text-top; padding: 20px;}
+
+
+/* FORMATION */
+#formation		{ display: inline-block; width: 28%; height: 100%;  vertical-align : text-top; padding: 20px; }
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1023px)
+{
+	#liseret 	{ display: none; }
+	#etatcivil 	{ display: block; width: 100%; }
+	#experience 	{ display: block; width: 100%; }
+	#competence	{ display: block; width: 100%; }
+	#formation	{ display: block; width: 100%; }
+}
